@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Listings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffcc00;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .restaurant-class {
+            border: 1px solid #d9534f;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            transition: transform 0.2s;
+        }
+        .restaurant-class:hover {
+            transform: scale(1.05);
+        }
+        .restaurant-name {
+            font-size: 1.5em;
+            color: #333;
+            margin: 0;
+        }
+        .restaurant-rating {
+            font-size: 1.2em;
+            color: #ffcc00; 
+            margin: 10px 0;
+        }
+        .restaurant-description {
+            color: #666;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+        .restaurant-address {
+            font-size: 0.9em;
+            color: #007bff; 
+            text-decoration: none;
+        }
+        .restaurant-address:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Discover Amazing Restaurants</h1>
+
+    <div class="container">
+        <div class="restaurant-class">
+            <h2 class="restaurant-name">The Zomato Kitchen</h2>
+            <div class="restaurant-rating">4.5 ★</div>
+            <p class="restaurant-description">A fine dining experience with gourmet dishes.</p>
+            <a href="#" class="restaurant-address">No. 1-06, I resident, Persiaran Surian, Kota Damansara, Petaling Jaya, Malaysia. </a>
+        </div>
+
+        <div class="restaurant-class">
+            <h2 class="restaurant-name">Pasta Paradise</h2>
+            <div class="restaurant-rating">4.7 ★</div>
+            <p class="restaurant-description">Authentic Italian pasta made fresh daily.</p>
+            <a href="#" class="restaurant-address">456 Elm St, Cityville</a>
+        </div>
+
+        <div class="restaurant-class">
+            <h2 class="restaurant-name">Sushi World</h2>
+            <div class="restaurant-rating">4.9 ★</div>
+            <p class="restaurant-description">Experience the art of sushi with our master chefs.</p>
+            <a href="#" class="restaurant-address">789 Maple Ave, Cityville</a>
+        </div>
+
+        <div class="restaurant-class">
+            <h2 class="restaurant-name">Burger Heaven</h2>
+            <div class="restaurant-rating">4.2 ★</div>
+            <p class="restaurant-description">Juicy burgers and crispy fries in a cozy setting.</p>
+            <a href="#" class="restaurant-address">321 Oak St, Cityville</a>
+        </div>
+
+        <div class="restaurant-class">
+            <h2 class="restaurant-name">Nexus Kitchen</h2>
+            <div class="restaurant-rating">4.6 ★</div>
+            <p class="restaurant-description">Spicy tacos and delicious margaritas await you!</p>
+            <a href="#" class="restaurant-address">654 Pine St, Cityville</a>
+        </div>
+
+        <div class="restaurant-class">
+            <h2 class="restaurant-name">Vegan Delights</h2>
+            <div class="restaurant-rating">4.8 ★</div>
+            <p class="restaurant-description">Healthy and delicious plant-based meals for everyone.</p>
+            <a href="#" class="restaurant-address">987 Cedar St, Cityville</a>
+        </div>
+
+        <div class="restaurant-class">
+            <h2 class="restaurant-name">BBQ Heaven</h2>
+            <div class="restaurant-rating">4.8 ★</div>
+            <p class="restaurant-description">Healthy and delicious plant-based meals for everyone.</p>
+            <a href="#" class="restaurant-address">987 Cedar St, Cityville</a>
