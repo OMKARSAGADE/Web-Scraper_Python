@@ -1,6 +1,4 @@
-:
-
- Restaurant Data Scraper
+: Restaurant Data Scraper
 This project is a web scraping tool built with Python, Selenium, and BeautifulSoup to extract restaurant data from an HTML file. The extracted data is then stored in a CSV file for further analysis or usage.
 
 🚀 Features
